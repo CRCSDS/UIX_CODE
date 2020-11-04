@@ -73,7 +73,6 @@ namespace unix_code
                 MessageBox.Show("IDENTITY CONFIRMED");
                 Menu menu = new Menu(textBox1.Text);
                 menu.Show();
-                this.Hide();
             }
         }
     }

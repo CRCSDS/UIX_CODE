@@ -5,7 +5,7 @@ namespace unix_code
 
 
 {
-    public partial class Menu : Form
+    public partial class Menu : Libreria_Clases_1.LC_Tematica
     {
         public Menu(String user)
         {
@@ -33,13 +33,6 @@ namespace unix_code
             Acces_bbdd basebbdd = new Acces_bbdd();
             basebbdd.Show();
             this.Hide();
-        }
-
-        private void cerrarsesion_bt_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Login Login = new Login();
-            Login.Show();
         }
     }
 }
