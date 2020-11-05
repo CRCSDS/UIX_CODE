@@ -5,7 +5,7 @@ namespace unix_code
 
 
 {
-    public partial class Menu : Libreria_Clases_1.LC_Tematica
+    public partial class Menu : Libreria_Clases_1.BaseForms
     {
         public Menu(String user)
         {

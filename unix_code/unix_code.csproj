@@ -137,9 +137,9 @@
     <Folder Include="assets\images\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Libreria_Clases_1\BaseForms.csproj">
+    <ProjectReference Include="..\..\..\Libreria_Clases_1\Libreria_Clases_1.csproj">
       <Project>{4e0cd2e4-23ba-4518-8cbe-8fd85335d018}</Project>
-      <Name>BaseForms</Name>
+      <Name>Libreria_Clases_1</Name>
     </ProjectReference>
     <ProjectReference Include="..\BaseDatos\BaseDatos.csproj">
       <Project>{df4bbcb6-4528-405a-827b-28636890b64d}</Project>

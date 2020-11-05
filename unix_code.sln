@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseDatos", "BaseDatos\Base
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls", "Controls\Controls.csproj", "{981ABD92-C863-4906-A4E3-2DBDFB3ECB97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseForms", "..\..\Libreria_Clases_1\BaseForms.csproj", "{4E0CD2E4-23BA-4518-8CBE-8FD85335D018}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria_Clases_1", "..\..\Libreria_Clases_1\Libreria_Clases_1.csproj", "{4E0CD2E4-23BA-4518-8CBE-8FD85335D018}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
