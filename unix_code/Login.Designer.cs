@@ -43,8 +43,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.labelUsername = new System.Windows.Forms.Label();
-            this.class11 = new Controls.Class1();
             this.swTextbox1 = new Libreria_Clases_1.SWTextbox();
+            this.class11 = new Controls.Class1();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -79,7 +79,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(280, 303);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(285, 22);
             this.textBox1.TabIndex = 2;
@@ -87,7 +87,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(280, 358);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(285, 22);
@@ -96,7 +96,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(340, 412);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(163, 41);
             this.button1.TabIndex = 4;
@@ -109,7 +109,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(312, 134);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(209, 135);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -147,7 +147,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(247, 124);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(333, 250);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -157,7 +157,7 @@
             // progressBar1
             // 
             this.progressBar1.Location = new System.Drawing.Point(204, 412);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(4);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(416, 18);
             this.progressBar1.TabIndex = 9;
@@ -191,6 +191,17 @@
             this.labelUsername.Size = new System.Drawing.Size(0, 32);
             this.labelUsername.TabIndex = 11;
             // 
+            // swTextbox1
+            // 
+            this.swTextbox1.Campo_obligatorio = true;
+            this.swTextbox1.CampoBBDD = null;
+            this.swTextbox1.ForeignKey = true;
+            this.swTextbox1.Location = new System.Drawing.Point(733, 160);
+            this.swTextbox1.Name = "swTextbox1";
+            this.swTextbox1.Size = new System.Drawing.Size(100, 22);
+            this.swTextbox1.TabIndex = 13;
+            this.swTextbox1.tb_txtpermitido = Libreria_Clases_1.SWTextbox.tb_parametros.Codigo;
+            // 
             // class11
             // 
             this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
@@ -201,15 +212,6 @@
             this.class11.Size = new System.Drawing.Size(33, 25);
             this.class11.TabIndex = 12;
             this.class11.UseVisualStyleBackColor = true;
-            // 
-            // swTextbox1
-            // 
-            this.swTextbox1.CampoBBDD = null;
-            this.swTextbox1.Location = new System.Drawing.Point(733, 160);
-            this.swTextbox1.Name = "swTextbox1";
-            this.swTextbox1.Size = new System.Drawing.Size(100, 22);
-            this.swTextbox1.TabIndex = 13;
-            this.swTextbox1.tb_txtpermitido = Libreria_Clases_1.SWTextbox.tb_parametros.Fecha;
             // 
             // Login
             // 
@@ -234,7 +236,7 @@
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblUser);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Login";
             this.Text = "login";
             this.Load += new System.EventHandler(this.Login_Load);
