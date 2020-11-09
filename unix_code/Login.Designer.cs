@@ -43,8 +43,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.labelUsername = new System.Windows.Forms.Label();
-            this.swTextbox1 = new Libreria_Clases_1.SWTextbox();
             this.class11 = new Controls.Class1();
+            this.swTextbox1 = new Libreria_Clases_1.SWTextbox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -191,17 +191,6 @@
             this.labelUsername.Size = new System.Drawing.Size(0, 32);
             this.labelUsername.TabIndex = 11;
             // 
-            // swTextbox1
-            // 
-            this.swTextbox1.Campo_obligatorio = true;
-            this.swTextbox1.CampoBBDD = null;
-            this.swTextbox1.ForeignKey = true;
-            this.swTextbox1.Location = new System.Drawing.Point(733, 160);
-            this.swTextbox1.Name = "swTextbox1";
-            this.swTextbox1.Size = new System.Drawing.Size(100, 22);
-            this.swTextbox1.TabIndex = 13;
-            this.swTextbox1.tb_txtpermitido = Libreria_Clases_1.SWTextbox.tb_parametros.Codigo;
-            // 
             // class11
             // 
             this.class11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("class11.BackgroundImage")));
@@ -212,6 +201,18 @@
             this.class11.Size = new System.Drawing.Size(33, 25);
             this.class11.TabIndex = 12;
             this.class11.UseVisualStyleBackColor = true;
+            // 
+            // swTextbox1
+            // 
+            this.swTextbox1.Campo_obligatorio = true;
+            this.swTextbox1.CampoBBDD = null;
+            this.swTextbox1.ForeignKey = true;
+            this.swTextbox1.Location = new System.Drawing.Point(733, 160);
+            this.swTextbox1.Name = "swTextbox1";
+            this.swTextbox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.swTextbox1.Size = new System.Drawing.Size(100, 22);
+            this.swTextbox1.TabIndex = 13;
+            this.swTextbox1.tb_txtpermitido = Libreria_Clases_1.SWTextbox.tb_parametros.Codigo;
             // 
             // Login
             // 
